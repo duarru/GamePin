@@ -50,6 +50,7 @@ public class NeedleMovementScritp : MonoBehaviour
             canFireNeedle = false;
             touchedTheCircle = true;
             myBody.simulated = false;
+            gameObject.transform.SetParent(target.transform);
         }
     }
 }
