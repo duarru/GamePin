@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class NeedleMovementScritp : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField]
     private GameObject needleBody;
     private bool canFireNeedle;
     private bool touchedTheCircle;
-    private float forceY = 70f;
+    private float forceY = 5f;
     [SerializeField]
     private Rigidbody2D myBody;
 
@@ -39,5 +38,18 @@ public class NeedleMovementScritp : MonoBehaviour
         needleBody.SetActive(true);
         myBody.simulated = true;
         canFireNeedle = true;
+    }
+
+    public void OnTriggerEnter2D(Collider2D target)
+    {
+        if(touchedTheCircle){
+            return;
+        }
+        if (target.tag == "Circle")
+        {
+            canFireNeedle = false;
+            touchedTheCircle = true;
+            myBody.simulated = false;
+        }
     }
 }
