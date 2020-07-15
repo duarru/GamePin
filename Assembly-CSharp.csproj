@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CircleRotateScript.cs" />
+    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\NeedleMovementScritp.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/duarr/OneDrive/Udemy/Pin The Circle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

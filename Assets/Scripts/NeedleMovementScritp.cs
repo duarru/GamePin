@@ -16,7 +16,6 @@ public class NeedleMovementScritp : MonoBehaviour
     void Awake()
     {
         Initialize();
-        FireTheNeedle();
     }
 
     void Initialize()
