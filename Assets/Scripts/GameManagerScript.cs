@@ -40,7 +40,7 @@ public class GameManagerScript : MonoBehaviour
 
     public void ShootTheNeedle()
     {
-        gameNeedles[needleIndex].GetComponent<NeedleMovementScritp>().FireTheNeedle();
+        gameNeedles[needleIndex].GetComponent<NeedleMovementScript>().FireTheNeedle();
         needleIndex++;
         if(needleIndex == gameNeedles.Length)
         {
