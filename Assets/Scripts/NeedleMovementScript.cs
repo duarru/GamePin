@@ -50,6 +50,11 @@ public class NeedleMovementScript : MonoBehaviour
             touchedTheCircle = true;
             myBody.simulated = false;
             gameObject.transform.SetParent(target.transform);
+
+            if(ScoreManager.instance != null)
+            {
+                ScoreManager.instance.SetScore();
+            }
         }
     }
 }

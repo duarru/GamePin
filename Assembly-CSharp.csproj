@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuControllerScript.cs" />
     <Compile Include="Assets\Scripts\NeedleMovementScript.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/duarr/OneDrive/Udemy/Pin The Circle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
