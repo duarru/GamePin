@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   needle: {fileID: 2668219202054832498, guid: fca78bc8f1783f74ea170d7332e51400, type: 3}
-  howManyNeedles: 3
+  howManyNeedles: 6
 --- !u!1 &1724799320
 GameObject:
   m_ObjectHideFlags: 0

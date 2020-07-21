@@ -186,9 +186,10 @@ GameObject:
   - component: {fileID: 7068297630939454003}
   - component: {fileID: 3538304546534691443}
   - component: {fileID: 6667807350315214549}
+  - component: {fileID: 7787029140474717489}
   m_Layer: 0
   m_Name: Needle Head
-  m_TagString: Untagged
+  m_TagString: Needle Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,3 +272,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.275
+--- !u!114 &7787029140474717489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6679948186103158813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20233e019ed877245ba4e3dde26728d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
